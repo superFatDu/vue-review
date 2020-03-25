@@ -6,9 +6,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/form',
     name: 'Form',
     component: Form
+  },
+  {
+    path: '/slot',
+    name: 'Slot',
+    component: () => import('../views/Slot/index.vue')
   }
 ]
 
