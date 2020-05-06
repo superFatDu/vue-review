@@ -14,6 +14,11 @@ const routes = [
     path: '/slot',
     name: 'Slot',
     component: () => import('../views/Slot/index.vue')
+  },
+  {
+    path: '/todo',
+    name: 'TodoVuex',
+    component: () => import('../views/TodoVuex.vue')
   }
 ]
 
